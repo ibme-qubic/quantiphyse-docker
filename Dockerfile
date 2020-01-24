@@ -25,7 +25,8 @@ RUN pip3 install git+https://github.com/ibme-qubic/quantiphyse-asl \
                  git+https://github.com/ibme-qubic/oxasl \
                  git+https://github.com/ibme-qubic/oxasl_ve \
                  git+https://github.com/ibme-qubic/oxasl_mp \
-                 git+https://github.com/ibme-qubic/oxasl_multite
+                 git+https://github.com/ibme-qubic/oxasl_multite \
+                 nibabel==2
 
 # We build Fabber and just copy the executables to the container. Note that
 # we could build fabber on the container but would need FSL+build tools.
